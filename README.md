@@ -7,13 +7,13 @@ Yii2-review
 Выполнить команду
 
 ```
-php composer require dvizh/yii2-review "@dev"
+php composer require mydesign/yii2-review "@dev"
 ```
 
 Или добавить в composer.json
 
 ```
-"dvizh/yii2-review": "@dev",
+"mydesign/yii2-review": "@dev",
 ```
 
 И выполнить
@@ -25,7 +25,7 @@ php composer update
 Далее, мигрируем базу:
 
 ```
-php yii migrate --migrationPath=vendor/dvizh/yii2-review/src/migrations
+php yii migrate --migrationPath=vendor/mydesign/yii2-review/src/migrations
 ```
 
 Подключение и настройка
@@ -35,7 +35,7 @@ php yii migrate --migrationPath=vendor/dvizh/yii2-review/src/migrations
 ```php
     'modules' => [
         'review' => [
-            'class' => 'dvizh\review\Module',
+            'class' => 'mydesign\review\Module',
         ],
         //...
     ]
@@ -43,12 +43,12 @@ php yii migrate --migrationPath=vendor/dvizh/yii2-review/src/migrations
 
 Виджеты
 ---------------------------------
-За вывод формы заказа отвечает виджет dvizh\review\widgets\ReviewForm
+За вывод формы заказа отвечает виджет mydesign\review\widgets\ReviewForm
 
 ```php
 <?php
-use dvizh\review\widgets\ReviewList;
-use dvizh\review\widgets\ReviewForm;
+use mydesign\review\widgets\ReviewList;
+use mydesign\review\widgets\ReviewForm;
 ?>
 
 Выведет список отзывов о переданном продукте:
