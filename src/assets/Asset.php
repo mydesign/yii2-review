@@ -1,5 +1,5 @@
 <?php
-namespace dvizh\review\assets;
+namespace mydesign\review\assets;
 
 use yii\web\AssetBundle;
 
