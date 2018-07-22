@@ -1,15 +1,15 @@
 <?php
-namespace dvizh\review\controllers;
+namespace mydesign\review\controllers;
 
 use yii;
-use dvizh\review\models\tools\ReviewSearch;
-use dvizh\review\models\Review;
+use mydesign\review\models\tools\ReviewSearch;
+use mydesign\review\models\Review;
 use yii\web\Controller;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use dvizh\review\events\ReviewEvent;
+use mydesign\review\events\ReviewEvent;
 
 class ReviewController  extends Controller
 {
