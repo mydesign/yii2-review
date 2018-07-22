@@ -1,10 +1,10 @@
 <?php
-namespace dvizh\review\models\tools;
+namespace mydesign\review\models\tools;
 
 use yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use dvizh\review\models\Review;
+use mydesign\review\models\Review;
 
 class ReviewSearch extends Review
 {
