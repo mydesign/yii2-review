@@ -1,9 +1,9 @@
 <?php
-namespace dvizh\review\widgets;
+namespace mydesign\review\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-use dvizh\review\models\Review;
+use mydesign\review\models\Review;
 use Yii;
 
 class ReviewList extends \yii\base\Widget
@@ -13,7 +13,7 @@ class ReviewList extends \yii\base\Widget
 
 	public function init()
 	{
-		\dvizh\review\assets\Asset::register($this->getView());
+		\mydesign\review\assets\Asset::register($this->getView());
 	}
 
 	public function run()
