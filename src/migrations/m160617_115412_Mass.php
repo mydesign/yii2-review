@@ -20,7 +20,7 @@ class m160617_115412_Mass extends Migration {
                 'name' => Schema::TYPE_STRING . "(255)",
                 'text' => Schema::TYPE_TEXT . " NOT NULL",
                 'date' => Schema::TYPE_DATETIME . "",
-                'active' => "enum('yes','no')" . " NOT NULL DEFAULT 'no'",
+                'active' => "enum('yes','no')" . " NOT NULL DEFAULT 'yes'",
                 'item_id' => Schema::TYPE_INTEGER . "(11) NOT NULL",
                 'pluses' => Schema::TYPE_TEXT . " NOT NULL",
                 'minuses' => Schema::TYPE_TEXT . " NOT NULL",
