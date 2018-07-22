@@ -1,5 +1,5 @@
 <?php
-namespace dvizh\review\models;
+namespace mydesign\review\models;
 
 use yii;
 
